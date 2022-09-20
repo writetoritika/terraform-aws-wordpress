@@ -3,7 +3,7 @@ variable "env_code" {
 }
 
 variable "env_code_prod" {
-  default = "wordpress_prod"
+  default = "wordpress-prod"
 }
 
 variable "vpc" {
