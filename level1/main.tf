@@ -11,10 +11,18 @@ provider "aws" {
   region = "us-east-1"
 }
 
-module "vpc" {
-  source         = "../modules/vpc"
-  env_code       = var.env_code
-  vpc            = var.vpc
-  public-subnet  = var.public-subnet
-  private-subnet = var.private-subnet
-}
+# module "vpc" {
+#   source         = "../modules/vpc"
+#   env_code       = var.env_code
+#   vpc            = var.vpc
+#   public-subnet  = var.public-subnet
+#   private-subnet = var.private-subnet
+# }
+
+# module "vpc_prod" {
+#   source         = "../modules/vpc"
+#   env_code       = var.env_code_prod
+#   vpc            = var.vpc
+#   public-subnet  = var.public-subnet
+#   private-subnet = var.private-subnet
+# }
