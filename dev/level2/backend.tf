@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "israel-terraform"
-    key            = "level1.tfstate"
+    key            = "level2-dev.tfstate"
     region         = "us-east-1"
     dynamodb_table = "israel-dynamo-terraform"
   }
