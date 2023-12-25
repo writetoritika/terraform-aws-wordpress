@@ -2,10 +2,10 @@
 data "terraform_remote_state" "networking" {
   backend = "s3"
   config = {
-    bucket         = "israel-terraform"
+    bucket         = "ritika-terraform"
     key            = "level1-prod.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "israel-dynamo-terraform"
+    dynamodb_table = "ritika-dynamo-terraform"
   }
 }
 
