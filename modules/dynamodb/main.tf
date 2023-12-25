@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "terraform_remote_state" {
-  name           = "israel-dynamo-terraform"
+  name           = "ritika-dynamo-terraform"
   billing_mode   = "PROVISIONED"
   read_capacity  = 1
   write_capacity = 1

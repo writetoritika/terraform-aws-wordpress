@@ -11,7 +11,7 @@ variable "public-subnet_id" {}
 variable "private-subnet_id" {}
 
 variable "domain_name" {
-  default = "israeltrello.be"
+  default = "writetoritika.com"
   type    = string
 }
 
