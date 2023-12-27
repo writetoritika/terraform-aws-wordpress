@@ -28,7 +28,7 @@ data "aws_ami" "amazonlinux" {
     values = ["hvm"]
   }
 
-  owners = ["137112412989"]
+  owners = ["733796618401"]
 }
 
 resource "aws_launch_configuration" "web_config" {
