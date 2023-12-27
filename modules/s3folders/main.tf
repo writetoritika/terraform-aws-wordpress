@@ -1,5 +1,5 @@
 data "aws_s3_bucket" "backend-bucket" {
-  bucket = "israel-terraform"
+  bucket = "ritika-terraform"
 }
 
 # Resource block to create S3 bucket objects(folders.)
